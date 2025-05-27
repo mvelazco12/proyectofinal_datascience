@@ -1,0 +1,6 @@
+backend/sentiment_model/
+backend/venv/
+*.safetensors
+*.dylib
+__pycache__/
+*.pyc
