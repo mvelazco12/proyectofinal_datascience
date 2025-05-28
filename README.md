@@ -1,4 +1,4 @@
-# App Sentimientos (Versión Inicial)
+# App Sentimientos 
 
 ## Descripción
 App Sentimientos es una aplicación móvil que permite predecir el estado emocional de un texto como **positivo** o **negativo**.  
