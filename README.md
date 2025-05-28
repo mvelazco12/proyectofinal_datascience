@@ -1,52 +1,28 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+# App Sentimientos (Versión Inicial)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descripción
+App Sentimientos es una aplicación móvil que permite predecir el estado emocional de un texto como **positivo** o **negativo**.  
+El backend está desarrollado en Python usando **Flask** y está desplegado en un servidor AWS para procesar las solicitudes de la app móvil.
 
-## Get started
+## Características
+- Clasificación binaria: emociones positivas o negativas.
+- Backend REST API con Flask alojado en AWS.
+- Comunicación móvil con la API para enviar texto y recibir predicción.
+- Arquitectura sencilla, ideal para pruebas y demostraciones iniciales.
 
-1. Install dependencies
+## Tecnologías
+- Python 3.x
+- Flask
+- AWS (EC2 o similar) para despliegue del backend
+- React Native (u otro framework móvil) para la app cliente
+- Git y GitHub para control de versiones
 
+## Instalación y Despliegue
+
+### Backend (Flask en AWS)
+
+1. Conectar al servidor AWS (EC2) vía SSH.
+2. Clonar el repositorio:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
+   git clone https://github.com/tuusuario/app-sentimientos.git
+   cd app-sentimientos/backend
