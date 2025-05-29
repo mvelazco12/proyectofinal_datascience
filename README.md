@@ -13,13 +13,11 @@ El backend está desarrollado en Python usando **Flask** y está desplegado en u
 ## Tecnologías
 - Python 3.x
 - Flask
-- AWS (EC2 o similar) para despliegue del backend
-- React Native (u otro framework móvil) para la app cliente
+- AWS 
+- React Native para la app cliente
 - Git y GitHub para control de versiones
 
-## Instalación y Despliegue
 
-### Backend (Flask en AWS)
 
 1. Conectar al servidor AWS (EC2) vía SSH.
 2. Clonar el repositorio:
