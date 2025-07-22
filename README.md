@@ -1,26 +1,24 @@
-# App Sentimientos 
+# Sentiments App
 
-## Descripción
-App Sentimientos es una aplicación móvil que permite predecir el estado emocional de un texto como **positivo** o **negativo**.  
-El backend está desarrollado en Python usando **Flask** y está desplegado en un servidor AWS para procesar las solicitudes de la app móvil.
+## Description
+Sentiments App is a mobile application that predicts the emotional state of a text as **positive** or **negative**.  
+The backend is developed in Python using **Flask** and is deployed on an AWS server to process mobile app requests.
 
-## Características
-- Clasificación binaria: emociones positivas o negativas.
-- Backend REST API con Flask alojado en AWS.
-- Comunicación móvil con la API para enviar texto y recibir predicción.
-- Arquitectura sencilla, ideal para pruebas y demostraciones iniciales.
+## Features
+- Binary classification: positive or negative emotions.
+- REST API backend with Flask hosted on AWS.
+- Mobile communication with the API to send text and receive predictions.
+- Simple architecture, ideal for initial testing and demonstrations.
 
-## Tecnologías
+## Technologies
 - Python 3.x
 - Flask
-- AWS 
-- React Native para la app cliente
-- Git y GitHub para control de versiones
+- AWS
+- React Native for the client app
+- Git and GitHub for version control
 
-
-
-1. Conectar al servidor AWS (EC2) vía SSH.
-2. Clonar el repositorio:
+## Instructions
+1. Connect to the AWS server (EC2) via SSH.
+2. Clone the repository:
    ```bash
-   git clone https://github.com/tuusuario/app-sentimientos.git
-   cd app-sentimientos/backend
+   git clone https://github.com/mvelazco12/app-sentimientos.git
